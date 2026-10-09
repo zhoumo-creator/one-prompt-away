@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f1c2c"/>
+      <stop offset="100%" stop-color="#3a2d5c"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffcb47"/>
+      <stop offset="100%" stop-color="#ff6b6b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <circle cx="1120" cy="70" r="180" fill="#8a63d2" opacity="0.18"/>
+  <circle cx="160" cy="380" r="140" fill="#ff6b6b" opacity="0.12"/>
+  <text x="640" y="150" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="30" fill="#ffcb47" opacity="0.85">&gt; one-prompt-away_</text>
+  <text x="640" y="245" text-anchor="middle" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, sans-serif" font-size="76" font-weight="700" fill="#ffffff">一个 Prompt 的距离</text>
+  <rect x="540" y="280" width="200" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="640" y="335" text-anchor="middle" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, sans-serif" font-size="30" fill="#d9d4e8">你距离高手，可能就差一个 prompt</text>
+</svg>

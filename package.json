@@ -1,0 +1,33 @@
+{
+  "name": "one-prompt-away",
+  "version": "0.1.0",
+  "description": "你距离高手，可能就差一个 prompt。有用、有趣的 prompt 收藏夹，可以装成 MCP。",
+  "type": "module",
+  "bin": {
+    "one-prompt-away": "src/server.js"
+  },
+  "files": [
+    "src",
+    "prompts.json"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["prompt", "mcp", "chatgpt", "claude", "提示词"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhoumo-creator/one-prompt-away.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "yaml": "^2.9.1"
+  }
+}

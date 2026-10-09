@@ -1,0 +1,41 @@
+[
+  {
+    "id": "job-caricature",
+    "title": "我和我工作的漫画像",
+    "summary": "上传一张照片，AI 用你的职业和爱好画一张大头漫画",
+    "category": "生图",
+    "audience": [
+      "营销人"
+    ],
+    "tags": [
+      "生图",
+      "社交晒图",
+      "ChatGPT记忆"
+    ],
+    "source": "https://www.forbes.com/sites/lesliekatz/2026/02/06/chatgpt-trend-turns-people-into-caricatures---and-shows-how-well-ai-knows-us/",
+    "author": "社交平台流行潮流（首发者待考）",
+    "viral_date": "2026-02",
+    "tested": [],
+    "prompt": "根据你对我的所有了解，画一张我和我工作的漫画像。",
+    "body": "## Prompt\n\n先上传一张清晰的正脸近照，再发送：\n\n```text\n根据你对我的所有了解，画一张我和我工作的漫画像。\n```\n\n## 用法\n\nChatGPT 会画一个大头漫画形象，周围摆满你工作和爱好相关的道具，这些细节都来自聊天记忆。Gemini 也能用。\n\n聊得不多的话，在 prompt 后面补几句你的职业、爱好和常用物品，信息越多效果越好。\n\n## 原文\n\n```text\nCreate a caricature of me and my job based on everything you know about me.\n```\n\n## 为什么火\n\n2026 年 2 月初在 Instagram、TikTok、LinkedIn、X 上刷屏，新闻主播、医生、房产中介、健身教练、老师都在晒。好玩的地方在于，它展示了 AI 到底有多「懂」你。\n\n- [Forbes：ChatGPT Trend Turns People Into Caricatures](https://www.forbes.com/sites/lesliekatz/2026/02/06/chatgpt-trend-turns-people-into-caricatures---and-shows-how-well-ai-knows-us/)\n- [TechRadar：I tried the new ChatGPT caricature trend](https://www.techradar.com/ai-platforms-assistants/chatgpt/i-tried-the-new-chatgpt-caricature-trend-and-was-shocked-how-well-the-ai-chatbot-knows-me)\n\n## 注意\n\n这个 prompt 会调用大量个人信息。Forbes 专门发文提醒过隐私风险：如果账号被盗，雇主相关的敏感信息可能留在记录里。\n\n不想让 AI 调用记忆的话，可以用这个写法，自己填职业、场景和画风（[Gulf News](https://gulfnews.com/technology/viral-chatgpt-ai-caricature-trend-takes-over-could-it-risk-your-job-and-privacy-1.500441755) 建议）：\n\n```text\n根据这张照片，画一张高质量的漫画像。保留我能被认出来的五官特征，适当夸张。我的职业是____，背景是____，画风是____。\n```",
+    "url": "https://github.com/zhoumo-creator/one-prompt-away/blob/main/prompts/job-caricature.md"
+  },
+  {
+    "id": "know-myself",
+    "title": "说一件我自己可能不知道的事",
+    "summary": "让 AI 翻一遍聊天记忆，指出你没意识到的特点",
+    "category": "照镜子",
+    "audience": [],
+    "tags": [
+      "自我认知",
+      "ChatGPT记忆"
+    ],
+    "source": "https://www.techradar.com/computing/artificial-intelligence/new-chatgpt-prompt-goes-viral-with-sam-altmans-approval",
+    "author": "Tom Morgan",
+    "viral_date": "2024-10",
+    "tested": [],
+    "prompt": "根据我们所有的对话，说一件关于我、但我自己可能都不知道的事。",
+    "body": "## Prompt\n\n```text\n根据我们所有的对话，说一件关于我、但我自己可能都不知道的事。\n```\n\n## 用法\n\n需要开启 ChatGPT 的记忆功能。记忆存的是过去对话的片段，不是全部聊天记录，所以聊得越多结果越准。\n\n用其他没有记忆的模型时，可以先贴一段自我介绍，或者几段你写过的东西。\n\n## 原文\n\n```text\nFrom all of our interactions what is one thing that you can tell me about myself that I may not know about myself\n```\n\n## 为什么火\n\n作者是 The Leading Edge newsletter 的创始人 Tom Morgan，首发于 X。2024 年 10 月 13 日 Sam Altman 转发并评论 \"love this\"，随后在 ChatGPT 用户里传开。\n\n- [TechRadar：New ChatGPT prompt goes viral with Sam Altman's approval](https://www.techradar.com/computing/artificial-intelligence/new-chatgpt-prompt-goes-viral-with-sam-altmans-approval)\n- [VentureBeat：The one question you need to ask ChatGPT right now](https://venturebeat.com/ai/the-one-question-you-need-to-ask-chatgpt-right-now)\n\n## 变体\n\n社交平台上流传的同系列写法：\n\n```text\n根据你对我的所有了解，给未来的我提 5 个问题。\n```\n\n```text\n根据我们的对话，告诉我 10 个我可能不想听的残酷真相。\n```\n\n```text\n根据你对我的了解，写一段我每天早上都该读一遍的话。\n```\n\n```text\n根据我们之前的对话，吐槽我一下。\n```",
+    "url": "https://github.com/zhoumo-creator/one-prompt-away/blob/main/prompts/know-myself.md"
+  }
+]

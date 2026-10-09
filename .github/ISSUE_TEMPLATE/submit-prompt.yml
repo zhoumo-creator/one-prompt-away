@@ -1,0 +1,71 @@
+name: 投稿一个 prompt
+description: 分享一个有用或有趣的 prompt
+title: "[投稿] "
+labels: ["投稿"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: 标题
+      description: 一句话说清它是什么
+      placeholder: 说一件我自己可能不知道的事
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Prompt 原文
+      description: 可以直接复制使用的完整内容
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: usage
+    attributes:
+      label: 它能做什么、怎么用
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 出处链接
+      description: 原帖或报道链接。自己写的填「原创」
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: 原作者
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 分类
+      options:
+        - 照镜子
+        - 生图
+        - 角色扮演与游戏
+        - 写作
+        - 职场
+        - 学习
+        - 生活
+        - Agent 与编程
+        - 纯整活
+        - 不确定 / 建议新分类
+    validations:
+      required: true
+  - type: dropdown
+    id: audience
+    attributes:
+      label: 适合谁（可多选）
+      multiple: true
+      options:
+        - 营销人
+        - 文科生
+        - 不会写代码但想做东西的人
+  - type: textarea
+    id: tested
+    attributes:
+      label: 实测情况（加分项）
+      description: 用了哪个模型、什么时候测的，可以直接贴效果截图
